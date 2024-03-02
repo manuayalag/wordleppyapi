@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+#guess-input {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+#guess-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #5cb85c;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.letter {
+  border: 1px solid #fff;
+  padding: 5px;
+  margin: 3px;
+  min-width: 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.row {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#grid {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#ganaste {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+  color: #f5f5f5;
+  font-size: 24px;
+  background-color: #ffffcc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+h3 {
+  display :none ;
+}
+
+  
